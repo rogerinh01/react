@@ -1,0 +1,193 @@
+.pagina-carro {
+
+
+
+    header {
+        flex-direction: row;
+        display: flex;
+        align-items: center;
+        height: 10vh;
+        margin-left: 30px;
+        background-color: #fff;
+
+        h1 {
+            font-size: 18px;
+            color: #C2C2C2;
+            margin-left: 10px;
+        }
+    }
+
+    aside {
+        background-color: #F5F6FA;
+        height: 85vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        section {
+            background-color: #fff;
+            width: 495px;
+            height: 498px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+
+            .logo {
+                h3 {
+                    font-size: 20px;
+                    font-weight: 500;
+                    background-color: rgba(17, 17, 17, 0.74);
+                    ;
+                    width: 79px;
+                    height: 36px;
+                    text-align: center;
+                    color: #fff;
+                    position: relative;
+                    bottom: 45px;
+                    left: 5px;
+                    border-radius: 3px;
+
+                }
+            }
+
+            .busca {
+                padding: 0px 30px;
+                overflow: scroll;
+                width: 495px;
+
+
+
+
+                .inp1 {
+                    display: flex;
+                    flex-direction: row;
+                    width: 423px;
+                    height: 45px;
+                    border: 1px solid #C5BC4D;
+                    justify-content: space-between;
+                    margin-bottom: 30px;
+
+                    div {
+                        h2 {
+                            font-size: 10px;
+                            color: #ADA646;
+                            font-weight: 700;
+                            margin-bottom: -3px;
+                        }
+
+                        input {
+                            border: none;
+                            box-shadow: 0 0 0 0;
+                            outline: 0;
+                            color: #747474;
+                            font-size: 14px;
+                            font-weight: 500;
+                            background: transparent;
+                            width: 350px;
+                        }
+
+                        margin: 5px 10px;
+
+                    }
+
+                    button {
+                        border: none;
+                        background: transparent;
+                    }
+                }
+
+                .tabela {
+
+
+                    .titulo {
+                        width: 350px;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        margin-bottom: 15px;
+
+                        th {
+                            font-size: 14px;
+                            font-weight: 600;
+                            color: #A0960D;
+                        }
+
+                    }
+
+                    tbody>tr {
+                        width: 400px;
+                        #img {
+                            display: none;
+                            border-radius: 100%;
+                            width: 50px;
+                            height: 50px;
+                            background-color: aqua;
+                            background-color: transparent;
+                        }
+                        
+
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        align-items: center;
+                        margin-bottom: 20px;
+
+                       
+
+
+                        #cdg {
+                            font-size: 14px;
+                            font-weight: 800;
+                            color: #606060;
+
+
+                        }
+
+                        #nm {
+                            font-size: 14px;
+                            font-weight: 500;
+                            color: #606060;
+                            text-align: left;
+                            width: 100px;
+
+                        }
+
+                        #ano {
+
+                            font-size: 14px;
+                            font-weight: 500;
+                            color: #606060;
+                            text-align: left;
+                        }
+                    }
+
+                    tbody :hover {
+                        background: #C5BC4D;
+                        border-radius: 20px;
+                        height: 40px;
+                        padding: 10px;
+
+
+                        
+                        #cdg,#nm,#ano{
+                            color: #fff !important;
+                            transition: none;
+                            text-transform: none;
+                        }
+
+                        #img{
+                            display: flex;
+                            border: 1px solid #C5BC4D ;
+
+                        }
+                       
+                    }
+
+                    
+                }
+
+
+            }
+        }
+    }
+}
